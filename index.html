@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW24</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section class="contant">
+      <h1>HW24-Beeinterns-by @oddfrid</h1>
+      <div class="hint">You can use 4 inputs to change background gradient and reset options by button</div>
+      <div class="contant__form-wrap">
+        <form id="form" >
+          <div class="contant__form-cells-wrap">
+            <div class="row">
+              <div class="form-cell">
+                <label for="colorInput">Color input</label>
+                <input id="colorInput" name="colorInput" type="color" value="#cccccc">
+              </div>
+            </div>
+            <div class="form-cell">
+              <label for="rangeInputR">Red</label>
+              <input id="rangeInputR" name="rangeInputR" value="204" type="range" step="1" min="0" max="255">
+            </div>
+            <div class="form-cell">
+              <label for="rangeInputG">Green</label>
+              <input id="rangeInputG" name="rangeInputG" value="204" type="range" step="1" min="0" max="255">
+            </div>
+            <div class="form-cell">
+              <label for="rangeInputB">Blue</label>
+              <input id="rangeInputB" name="rangeInputB" value="204" type="range" step="1" min="0" max="255">
+            </div>
+            <div class="row">
+              <div class="form-cell">
+                <button id="reset">Reset</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
